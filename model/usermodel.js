@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 var userschema = new mongoose.Schema({
-    _id: {
+    p_id: {
         type: String
     },
     title: {
