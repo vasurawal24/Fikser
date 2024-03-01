@@ -10,7 +10,7 @@ var http = require('http');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/Project----Fikser')
+mongoose.connect('mongodb+srv://rawalvasu27:vasu123@cluster0.lqfuzl1.mongodb.net/Project----Fikser')
   .then(() => console.log('Connected....!'));
 
 var port = normalizePort(process.env.PORT || '3000');
